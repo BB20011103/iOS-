@@ -1,7 +1,7 @@
 ```
 @interface student{
           @property(nonatomic, copy) NSString *name;
-          @property(nonatomic, copy) NSString* major;
+          @property(nonatomic, copy) NSString *major;
           @property(nonatomic, readonly) NSInteger age;
 }
 
