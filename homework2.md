@@ -1,15 +1,11 @@
 ```
 @interface student{
-     @public
-        NSString* name;
-        NSString* major;
-     @private
-        int age;
+          @property(nonatomic, copy) NSString *name;
+          @property(nonatomic, copy) NSString* major;
+          @property(nonatomic, readonly) NSInteger age;
 }
 
-@property(copy) NSString *name;
-@property(readonly) int age;
--(void) study:(float)time; // 类方法
+-(void) study:(float)time; 
 
 @end
 
